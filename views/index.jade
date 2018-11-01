@@ -1,0 +1,23 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+
+  p
+  input#input(type="input", placeholder="First roll")
+  p
+  input#input2(type="input", placeholder="Second roll")
+  p
+  input#input3(type="input", placeholder="Possible Third roll")
+  p
+  p#end Nice game! If you want to play again please refresh the browser!
+  button#button(onclick='sendScore()') Submit
+
+  pp
+
+  p Current result:
+  h2#results
+
+  script(src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js")
+  script(src="/javascripts/main.js")

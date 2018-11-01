@@ -1,0 +1,22 @@
+{
+  "name": "apsis",
+  "version": "0.0.1",
+  "description": "Bowling app for code test at apsis",
+  "main": "index.js",
+  "scripts": {
+    "test": "node unittest/test.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bowling"
+  ],
+  "author": "Jonas Remgård",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
